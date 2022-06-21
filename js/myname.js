@@ -8,7 +8,7 @@ function zamanF(){
 	let saniye=tarih.getSeconds();
 	let goster = `${saat}:${dakika}:${saniye} ${gunler[gun]}`
 	zaman.innerHTML = `${goster}`
-	//setInterval(zamanF, 1000);
+	setInterval(zamanF, 1000);
 	
 
 }
